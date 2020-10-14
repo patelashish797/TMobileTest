@@ -7,14 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F4463F7CB801DBD76FD81DD /* Pods_TMobileTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFE83798607D246A7B1CABBA /* Pods_TMobileTestTests.framework */; };
 		847AF1C1253768FB004152B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847AF1C0253768FB004152B6 /* AppDelegate.swift */; };
-		847AF1C3253768FB004152B6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847AF1C2253768FB004152B6 /* SceneDelegate.swift */; };
-		847AF1C5253768FB004152B6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847AF1C4253768FB004152B6 /* ViewController.swift */; };
-		847AF1C8253768FB004152B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 847AF1C6253768FB004152B6 /* Main.storyboard */; };
+		847AF1C5253768FB004152B6 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847AF1C4253768FB004152B6 /* HomeViewController.swift */; };
 		847AF1CA253768FF004152B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 847AF1C9253768FF004152B6 /* Assets.xcassets */; };
 		847AF1CD253768FF004152B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 847AF1CB253768FF004152B6 /* LaunchScreen.storyboard */; };
 		847AF1D825376900004152B6 /* TMobileTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847AF1D725376900004152B6 /* TMobileTestTests.swift */; };
 		847AF1E325376900004152B6 /* TMobileTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847AF1E225376900004152B6 /* TMobileTestUITests.swift */; };
+		847AF20B25376CC3004152B6 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847AF20A25376CC3004152B6 /* String+Extensions.swift */; };
+		847AF21325376CE3004152B6 /* Int+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847AF21225376CE3004152B6 /* Int+Extensions.swift */; };
+		847AF21825376D07004152B6 /* AlertDisplayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847AF21725376D07004152B6 /* AlertDisplayer.swift */; };
+		847AF21D25376D23004152B6 /* CustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847AF21C25376D23004152B6 /* CustomImageView.swift */; };
+		847AF22225376F62004152B6 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847AF22125376F62004152B6 /* Reachability.swift */; };
+		847AF230253770D2004152B6 /* RedditAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847AF22F253770D2004152B6 /* RedditAPI.swift */; };
+		847AF235253770F7004152B6 /* FeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847AF234253770F7004152B6 /* FeedViewModel.swift */; };
+		847AF23A25377113004152B6 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847AF23925377113004152B6 /* FeedCell.swift */; };
+		847AF23F2537713A004152B6 /* FeedModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847AF23E2537713A004152B6 /* FeedModel.swift */; };
+		847AF24425377155004152B6 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847AF24325377155004152B6 /* APIError.swift */; };
+		8788E5D51EB6DD316A8DB404 /* Pods_TMobileTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BF005362272ACEBA44EB434 /* Pods_TMobileTest.framework */; };
+		9BC955C196C8979FF042BD38 /* Pods_TMobileTest_TMobileTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66FAE7F7883B9E162AB5280F /* Pods_TMobileTest_TMobileTestUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +46,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07AF134A344074619CA3B197 /* Pods-TMobileTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TMobileTest.debug.xcconfig"; path = "Target Support Files/Pods-TMobileTest/Pods-TMobileTest.debug.xcconfig"; sourceTree = "<group>"; };
+		599BD107CA5562480FF0057E /* Pods-TMobileTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TMobileTestTests.release.xcconfig"; path = "Target Support Files/Pods-TMobileTestTests/Pods-TMobileTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		66C9C166BA0F203B30666682 /* Pods-TMobileTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TMobileTest.release.xcconfig"; path = "Target Support Files/Pods-TMobileTest/Pods-TMobileTest.release.xcconfig"; sourceTree = "<group>"; };
+		66FAE7F7883B9E162AB5280F /* Pods_TMobileTest_TMobileTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TMobileTest_TMobileTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BF005362272ACEBA44EB434 /* Pods_TMobileTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TMobileTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		847AF1BD253768FB004152B6 /* TMobileTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TMobileTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		847AF1C0253768FB004152B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		847AF1C2253768FB004152B6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		847AF1C4253768FB004152B6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		847AF1C7253768FB004152B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		847AF1C4253768FB004152B6 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		847AF1C9253768FF004152B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		847AF1CC253768FF004152B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		847AF1CE253768FF004152B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +63,20 @@
 		847AF1DE25376900004152B6 /* TMobileTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TMobileTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		847AF1E225376900004152B6 /* TMobileTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMobileTestUITests.swift; sourceTree = "<group>"; };
 		847AF1E425376900004152B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		847AF20A25376CC3004152B6 /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		847AF21225376CE3004152B6 /* Int+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Extensions.swift"; sourceTree = "<group>"; };
+		847AF21725376D07004152B6 /* AlertDisplayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertDisplayer.swift; sourceTree = "<group>"; };
+		847AF21C25376D23004152B6 /* CustomImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImageView.swift; sourceTree = "<group>"; };
+		847AF22125376F62004152B6 /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		847AF22F253770D2004152B6 /* RedditAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedditAPI.swift; sourceTree = "<group>"; };
+		847AF234253770F7004152B6 /* FeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewModel.swift; sourceTree = "<group>"; };
+		847AF23925377113004152B6 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		847AF23E2537713A004152B6 /* FeedModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedModel.swift; sourceTree = "<group>"; };
+		847AF24325377155004152B6 /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		A21C988135FF96323FEED7B4 /* Pods-TMobileTest-TMobileTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TMobileTest-TMobileTestUITests.release.xcconfig"; path = "Target Support Files/Pods-TMobileTest-TMobileTestUITests/Pods-TMobileTest-TMobileTestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DDC9FE4496FF0B5EF8F4B2FD /* Pods-TMobileTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TMobileTestTests.debug.xcconfig"; path = "Target Support Files/Pods-TMobileTestTests/Pods-TMobileTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DFE83798607D246A7B1CABBA /* Pods_TMobileTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TMobileTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E45F7B971861C7C39446D770 /* Pods-TMobileTest-TMobileTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TMobileTest-TMobileTestUITests.debug.xcconfig"; path = "Target Support Files/Pods-TMobileTest-TMobileTestUITests/Pods-TMobileTest-TMobileTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8788E5D51EB6DD316A8DB404 /* Pods_TMobileTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F4463F7CB801DBD76FD81DD /* Pods_TMobileTestTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +100,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BC955C196C8979FF042BD38 /* Pods_TMobileTest_TMobileTestUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		032C6F2BF0C2B41569DD894C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				07AF134A344074619CA3B197 /* Pods-TMobileTest.debug.xcconfig */,
+				66C9C166BA0F203B30666682 /* Pods-TMobileTest.release.xcconfig */,
+				E45F7B971861C7C39446D770 /* Pods-TMobileTest-TMobileTestUITests.debug.xcconfig */,
+				A21C988135FF96323FEED7B4 /* Pods-TMobileTest-TMobileTestUITests.release.xcconfig */,
+				DDC9FE4496FF0B5EF8F4B2FD /* Pods-TMobileTestTests.debug.xcconfig */,
+				599BD107CA5562480FF0057E /* Pods-TMobileTestTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		847AF1B4253768FB004152B6 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +127,8 @@
 				847AF1D625376900004152B6 /* TMobileTestTests */,
 				847AF1E125376900004152B6 /* TMobileTestUITests */,
 				847AF1BE253768FB004152B6 /* Products */,
+				032C6F2BF0C2B41569DD894C /* Pods */,
+				860398969D40279519438122 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +145,11 @@
 		847AF1BF253768FB004152B6 /* TMobileTest */ = {
 			isa = PBXGroup;
 			children = (
-				847AF1C0253768FB004152B6 /* AppDelegate.swift */,
-				847AF1C2253768FB004152B6 /* SceneDelegate.swift */,
-				847AF1C4253768FB004152B6 /* ViewController.swift */,
-				847AF1C6253768FB004152B6 /* Main.storyboard */,
-				847AF1C9253768FF004152B6 /* Assets.xcassets */,
 				847AF1CB253768FF004152B6 /* LaunchScreen.storyboard */,
-				847AF1CE253768FF004152B6 /* Info.plist */,
+				847AF1C0253768FB004152B6 /* AppDelegate.swift */,
+				847AF22625376FF8004152B6 /* Reddit */,
+				847AF20925376C0A004152B6 /* Extension */,
+				847AF20225376ABC004152B6 /* Resources */,
 			);
 			path = TMobileTest;
 			sourceTree = "<group>";
@@ -128,6 +172,90 @@
 			path = TMobileTestUITests;
 			sourceTree = "<group>";
 		};
+		847AF20225376ABC004152B6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				847AF1C9253768FF004152B6 /* Assets.xcassets */,
+				847AF1CE253768FF004152B6 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		847AF20925376C0A004152B6 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				847AF20A25376CC3004152B6 /* String+Extensions.swift */,
+				847AF21225376CE3004152B6 /* Int+Extensions.swift */,
+				847AF21725376D07004152B6 /* AlertDisplayer.swift */,
+				847AF21C25376D23004152B6 /* CustomImageView.swift */,
+				847AF22125376F62004152B6 /* Reachability.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		847AF22625376FF8004152B6 /* Reddit */ = {
+			isa = PBXGroup;
+			children = (
+				847AF22B25377066004152B6 /* Controller */,
+				847AF22A25377058004152B6 /* Network */,
+				847AF2292537704B004152B6 /* ViewModel */,
+				847AF2282537701E004152B6 /* View */,
+				847AF22725377013004152B6 /* Model */,
+			);
+			path = Reddit;
+			sourceTree = "<group>";
+		};
+		847AF22725377013004152B6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				847AF23E2537713A004152B6 /* FeedModel.swift */,
+				847AF24325377155004152B6 /* APIError.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		847AF2282537701E004152B6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				847AF23925377113004152B6 /* FeedCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		847AF2292537704B004152B6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				847AF234253770F7004152B6 /* FeedViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		847AF22A25377058004152B6 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				847AF22F253770D2004152B6 /* RedditAPI.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		847AF22B25377066004152B6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				847AF1C4253768FB004152B6 /* HomeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		860398969D40279519438122 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6BF005362272ACEBA44EB434 /* Pods_TMobileTest.framework */,
+				66FAE7F7883B9E162AB5280F /* Pods_TMobileTest_TMobileTestUITests.framework */,
+				DFE83798607D246A7B1CABBA /* Pods_TMobileTestTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +263,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 847AF1E725376900004152B6 /* Build configuration list for PBXNativeTarget "TMobileTest" */;
 			buildPhases = (
+				A4A51BC282B160AE2AB23353 /* [CP] Check Pods Manifest.lock */,
 				847AF1B9253768FB004152B6 /* Sources */,
 				847AF1BA253768FB004152B6 /* Frameworks */,
 				847AF1BB253768FB004152B6 /* Resources */,
+				847AF25C253772E0004152B6 /* SwiftLint */,
 			);
 			buildRules = (
 			);
@@ -152,6 +282,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 847AF1EA25376900004152B6 /* Build configuration list for PBXNativeTarget "TMobileTestTests" */;
 			buildPhases = (
+				57B4C6F77E76F59D8FE83765 /* [CP] Check Pods Manifest.lock */,
 				847AF1CF25376900004152B6 /* Sources */,
 				847AF1D025376900004152B6 /* Frameworks */,
 				847AF1D125376900004152B6 /* Resources */,
@@ -170,6 +301,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 847AF1ED25376900004152B6 /* Build configuration list for PBXNativeTarget "TMobileTestUITests" */;
 			buildPhases = (
+				5D2C111AB77B4F7E07AE3BB1 /* [CP] Check Pods Manifest.lock */,
 				847AF1DA25376900004152B6 /* Sources */,
 				847AF1DB25376900004152B6 /* Frameworks */,
 				847AF1DC25376900004152B6 /* Resources */,
@@ -233,7 +365,6 @@
 			files = (
 				847AF1CD253768FF004152B6 /* LaunchScreen.storyboard in Resources */,
 				847AF1CA253768FF004152B6 /* Assets.xcassets in Resources */,
-				847AF1C8253768FB004152B6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,14 +384,110 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		57B4C6F77E76F59D8FE83765 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TMobileTestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D2C111AB77B4F7E07AE3BB1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TMobileTest-TMobileTestUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		847AF25C253772E0004152B6 /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\" \n";
+		};
+		A4A51BC282B160AE2AB23353 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TMobileTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		847AF1B9253768FB004152B6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				847AF1C5253768FB004152B6 /* ViewController.swift in Sources */,
+				847AF230253770D2004152B6 /* RedditAPI.swift in Sources */,
+				847AF23A25377113004152B6 /* FeedCell.swift in Sources */,
+				847AF22225376F62004152B6 /* Reachability.swift in Sources */,
+				847AF1C5253768FB004152B6 /* HomeViewController.swift in Sources */,
+				847AF21D25376D23004152B6 /* CustomImageView.swift in Sources */,
+				847AF24425377155004152B6 /* APIError.swift in Sources */,
+				847AF21325376CE3004152B6 /* Int+Extensions.swift in Sources */,
+				847AF20B25376CC3004152B6 /* String+Extensions.swift in Sources */,
+				847AF21825376D07004152B6 /* AlertDisplayer.swift in Sources */,
 				847AF1C1253768FB004152B6 /* AppDelegate.swift in Sources */,
-				847AF1C3253768FB004152B6 /* SceneDelegate.swift in Sources */,
+				847AF235253770F7004152B6 /* FeedViewModel.swift in Sources */,
+				847AF23F2537713A004152B6 /* FeedModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,14 +523,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		847AF1C6253768FB004152B6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				847AF1C7253768FB004152B6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		847AF1CB253768FF004152B6 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -433,11 +652,13 @@
 		};
 		847AF1E825376900004152B6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07AF134A344074619CA3B197 /* Pods-TMobileTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = TMobileTest/Info.plist;
+				INFOPLIST_FILE = TMobileTest/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -451,11 +672,13 @@
 		};
 		847AF1E925376900004152B6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66C9C166BA0F203B30666682 /* Pods-TMobileTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = TMobileTest/Info.plist;
+				INFOPLIST_FILE = TMobileTest/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -469,6 +692,7 @@
 		};
 		847AF1EB25376900004152B6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDC9FE4496FF0B5EF8F4B2FD /* Pods-TMobileTestTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +714,7 @@
 		};
 		847AF1EC25376900004152B6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 599BD107CA5562480FF0057E /* Pods-TMobileTestTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -511,6 +736,7 @@
 		};
 		847AF1EE25376900004152B6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E45F7B971861C7C39446D770 /* Pods-TMobileTest-TMobileTestUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -530,6 +756,7 @@
 		};
 		847AF1EF25376900004152B6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A21C988135FF96323FEED7B4 /* Pods-TMobileTest-TMobileTestUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
