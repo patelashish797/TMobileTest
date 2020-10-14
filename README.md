@@ -8,6 +8,9 @@ This application is developed in MVVM architecture and programmatically UI. Each
 
 ### Deployment target
 - iOS 12.0
+
 ### Frameworks
 - [SwiftLint](https://github.com/realm/SwiftLint)
 
+### Screenshots
+<img src="https://github.com/patelashish797/TMobileTest/blob/main/ScreenShots/screen1.png" width="200" height="400">  |  <img src="https://github.com/patelashish797/TMobileTest/blob/main/ScreenShots/screen2.png" width="200" height="400">
